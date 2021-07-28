@@ -63,7 +63,11 @@ Alternatively, you can contract us by e-mail: bert.vanderveen@nibio.no, jenni.m.
 
 [Niku, J., Brooks, W., Herliansyah, R., Hui, F.K.C., Taskinen, S., & Warton, D. (2019). Efficient estimation of generalized linear latent variable models. PloS one, 14(5), e0216129.](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0216129)
 
+[Ovaskainen, O., Tikhonov, G., Norberg, A., F.G. Blanchet, Duan, L., Dunson, D., Roslin, T. & Abrego, N. (2017). How to make more out of community data? A conceptual framework and its implementation as models and software. Ecology Letters, 20(5), 561-576.](https://onlinelibrary.wiley.com/doi/10.1111/ele.12757)
+
 [Pollock, L., Tingley, R., Morris, W., Golding, N., O'Hara, R., Parris, K., Vesk, P., & McCarthy, M. (2014). Understanding co-occurrence by modelling species simultaneously with a Joint Species Distribution Model (JSDM). Methods in Ecology and Evolution, 5(5), 397-406.](https://besjournals.onlinelibrary.wiley.com/doi/10.1111/2041-210X.12180)
+
+[van der Veen, B., Hui, F.K.C., Hovstad, K.A., Solbu, E.B., & O'Hara, R.B. (2021). Model-based ordination for species with unequal niche widths. Methods in Ecology and Evolution, 12(7), 1288-1300.](https://besjournals.onlinelibrary.wiley.com/doi/abs/10.1111/2041-210X.13595)
 
 [Wang, Y., Naumann, U., Wright, S., & Warton, D. (2012). mvabund– an R package for model-based analysis of multivariate abundance data. Methods in Ecology and Evolution, 3(3), 471-474.](https://besjournals.onlinelibrary.wiley.com/doi/10.1111/j.2041-210X.2012.00190.x)
 
@@ -74,8 +78,6 @@ Alternatively, you can contract us by e-mail: bert.vanderveen@nibio.no, jenni.m.
 [Warton, D., Foster, S., De’ath, G., Stoklosa, J., & Dunstan, P. (2015). Model-based thinking for community ecology. Plant Ecology, 216(5), 669–682.](https://link.springer.com/article/10.1007/s11258-014-0366-3)
 
 [Warton, D., & Hui, F.K.C. (2017). The central role of mean-variance relationships in the analysis of multivariate abundance data: a response to Roberts (2017). Methods in Ecology and Evolution, 8(11), 1408-1414.](https://besjournals.onlinelibrary.wiley.com/doi/abs/10.1111/2041-210X.12843)
-
-[van der Veen, B., Hui, F.K.C., Hovstad, K.A., Solbu, E.B., & O'Hara, R.B. (2021). Model-based ordination for species with unequal niche widths. Methods in Ecology and Evolution, 12(7), 1288-1300.](https://besjournals.onlinelibrary.wiley.com/doi/abs/10.1111/2041-210X.13595)
 
 [Zurell, D., Zimmermann, N., Gross, H., Baltensweiler, A., Sattler, T., & Wüest, R. (2020). Testing species assemblage predictions from stacked and joint species distribution models. Journal of Biogeography, 47(1), 101-113.](https://onlinelibrary.wiley.com/doi/abs/10.1111/jbi.13608)
 
