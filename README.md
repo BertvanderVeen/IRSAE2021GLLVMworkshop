@@ -65,6 +65,8 @@ Alternatively, you can contract us by e-mail: bert.vanderveen@nibio.no, jenni.m.
 
 [Ovaskainen, O., Tikhonov, G., Norberg, A., F.G. Blanchet, Duan, L., Dunson, D., Roslin, T. & Abrego, N. (2017). How to make more out of community data? A conceptual framework and its implementation as models and software. Ecology Letters, 20(5), 561-576.](https://onlinelibrary.wiley.com/doi/10.1111/ele.12757)
 
+[Poggiato, G.,  Münkemüller, T., Bystrova, D., Arbel, J., Clark, J.S. & Thuiller, W. (2021). On the interpretations of joint omdeling in community ecology. Trends in Ecology and Evolution, 36(5), 391-401.](https://doi.org/10.1016/j.tree.2021.01.002)
+
 [Pollock, L., Tingley, R., Morris, W., Golding, N., O'Hara, R., Parris, K., Vesk, P., & McCarthy, M. (2014). Understanding co-occurrence by modelling species simultaneously with a Joint Species Distribution Model (JSDM). Methods in Ecology and Evolution, 5(5), 397-406.](https://besjournals.onlinelibrary.wiley.com/doi/10.1111/2041-210X.12180)
 
 [van der Veen, B., Hui, F.K.C., Hovstad, K.A., Solbu, E.B., & O'Hara, R.B. (2021). Model-based ordination for species with unequal niche widths. Methods in Ecology and Evolution, 12(7), 1288-1300.](https://besjournals.onlinelibrary.wiley.com/doi/abs/10.1111/2041-210X.13595)
