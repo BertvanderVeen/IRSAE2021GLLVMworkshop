@@ -188,9 +188,13 @@ for(i in 1:ncol(X)){
 # it's also a good practice to scale the environmental variables:
 Xs <- scale(spider$x)
 fitx <- gllvm(y = spider$abund, X = Xs, family = "negative.binomial")
+# The above includes all the variables in the matrix/data.frame given to 'X' to the model. 
+# Model can be specified more closely using formula, eg. interactions or 
+fitx <- gllvm(y = spider$abund, X = Xs, family = "negative.binomial", formula = ~soil.dry*reflection)
 fitx
 # Point estimates for the environmental coefficients:
 fitx$params$Xcoef
+
 
 # Again, choose the number of LVs
 fitx1 <- gllvm(y = spider$abund, X = Xs, family = "negative.binomial", num.lv = 1)
