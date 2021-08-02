@@ -18,7 +18,7 @@ If you encounter any other problems while installing any of the packages above (
 If you encounter any problems when using the <tt>gllvm</tt> R-package, please explore [existing issues in the github repository of the package](https://github.com/JenniNiku/gllvm/issues). If your problem has not already been posted by someone else, feel free to post a new issue or use the [discussion board](https://github.com/BertvanderVeen/BES2020GLLVMworkshop/discussions) in this repository.
 
 # Workshop material
-All workshop material can be found in this repository, listed below. If you would like to download all material at once, click the bright green button above (and select the bottom option: download zip).
+All workshop material can be found in this repository, listed below. If you would like to download all material at once, click the bright green button above (and select the bottom option: download zip). Material from our workshop at the Festival of Ecology is availalbe here: https://github.com/BertvanderVeen/BES2020GLLVMworkshop with recordings: https://t.co/eWfbfk27Fu?amp=1.
 
 Further example material on using the <tt>gllvm</tt> R-package is available in the vignettes, and the [reference manual](https://cran.r-project.org/web/packages/gllvm/gllvm.pdf), of the package:<br>
 https://jenniniku.github.io/gllvm/articles/ <br>
@@ -55,7 +55,7 @@ Alternatively, you can contact us by e-mail: bert.vanderveen@nibio.no, jenni.m.e
 
 [Ovaskainen, O., Tikhonov, G., Norberg, A., F.G. Blanchet, Duan, L., Dunson, D., Roslin, T. & Abrego, N. (2017). How to make more out of community data? A conceptual framework and its implementation as models and software. Ecology Letters, 20(5), 561 - 576.](https://onlinelibrary.wiley.com/doi/10.1111/ele.12757)
 
-[Poggiato, G.,  Münkemüller, T., Bystrova, D., Arbel, J., Clark, J.S. & Thuiller, W. (2021). On the interpretations of joint omdeling in community ecology. Trends in Ecology and Evolution, 36(5), 391 -  401.](https://doi.org/10.1016/j.tree.2021.01.002)
+[Poggiato, G.,  MÃ¼nkemÃ¼ller, T., Bystrova, D., Arbel, J., Clark, J.S. & Thuiller, W. (2021). On the interpretations of joint omdeling in community ecology. Trends in Ecology and Evolution, 36(5), 391 -  401.](https://doi.org/10.1016/j.tree.2021.01.002)
 
 [Pollock, L., Tingley, R., Morris, W., Golding, N., O'Hara, R., Parris, K., Vesk, P., & McCarthy, M. (2014). Understanding co-occurrence by modelling species simultaneously with a Joint Species Distribution Model (JSDM). Methods in Ecology and Evolution, 5(5), 397 - 406.](https://besjournals.onlinelibrary.wiley.com/doi/10.1111/2041-210X.12180)
 
@@ -67,9 +67,9 @@ Alternatively, you can contact us by e-mail: bert.vanderveen@nibio.no, jenni.m.e
 
 [Warton, D., Blanchet, F., O'Hara, R., Ovaskainen, O., Taskinen, S., Walker, S., & Hui, F.K.C. (2015). So many variables: joint modeling in community ecology. Trends in Ecology & Evolution, 30(12), 766 - 779.](https://doi.org/10.1016/j.tree.2015.09.007)
 
-[Warton, D., Foster, S., De�ath, G., Stoklosa, J., & Dunstan, P. (2015). Model-based thinking for community ecology. Plant Ecology, 216(5), 669 - 682.](https://link.springer.com/article/10.1007/s11258-014-0366-3)
+[Warton, D., Foster, S., Deâath, G., Stoklosa, J., & Dunstan, P. (2015). Model-based thinking for community ecology. Plant Ecology, 216(5), 669 - 682.](https://link.springer.com/article/10.1007/s11258-014-0366-3)
 
 [Warton, D., & Hui, F.K.C. (2017). The central role of mean-variance relationships in the analysis of multivariate abundance data: a response to Roberts (2017). Methods in Ecology and Evolution, 8(11), 1408 - 1414.](https://besjournals.onlinelibrary.wiley.com/doi/abs/10.1111/2041-210X.12843)
 
-[Zurell, D., Zimmermann, N., Gross, H., Baltensweiler, A., Sattler, T., & Wüest, R. (2020). Testing species assemblage predictions from stacked and joint species distribution models. Journal of Biogeography, 47(1), 101 - 113.](https://onlinelibrary.wiley.com/doi/abs/10.1111/jbi.13608)
+[Zurell, D., Zimmermann, N., Gross, H., Baltensweiler, A., Sattler, T., & WÃ¼est, R. (2020). Testing species assemblage predictions from stacked and joint species distribution models. Journal of Biogeography, 47(1), 101 - 113.](https://onlinelibrary.wiley.com/doi/abs/10.1111/jbi.13608)
 
