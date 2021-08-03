@@ -1,5 +1,6 @@
 # Full vignette here: https://jenniniku.github.io/gllvm/articles/vignette6.html
 # Other vignettes here:  https://jenniniku.github.io/gllvm/articles/
+# Requires gllvm version 1.3.1 or later
 
 # Load gllvm R-package
 library(gllvm)
@@ -8,7 +9,7 @@ library(gllvm)
 data(spider)
 Y <- spider$abund
 X <- spider$x  # Predictors of spider data
-family <- "poisson" # We use the Poisson distribution, the data are counts
+family <- "negative.binomial" # We use the negative binomial distribution
 
 # Assigning for purpose of reproducibility of the exercise
 # Could be any number, or could be NULL
@@ -46,8 +47,9 @@ par(mfrow=c(1,3))
 
 # The arrow.scale argument allows us to make the arrows shorter/longer
 # Intensity of the arrow presents the statistical uncertainty
-# Opaque arrows indicate CI that include zero (for rotated LVs)
+# Opaque arrows indicate CI that includes zero for at least one LV
 # CI can be turned off using the arrow.ci = F argument
+# Sorted by AIC from (high) left to right (low)
 ordiplot(RRGLM, biplot = TRUE, main = "Constrained", arrow.scale = 0.7)
 ordiplot(CGLLVM, biplot=TRUE, main = "Constrained with residual")
 ordiplot(PCGLLVM, biplot = TRUE,  main = "paritally Constrained with residual")

@@ -1,5 +1,6 @@
 # Full vignette here: https://jenniniku.github.io/gllvm/articles/vignette5.html
 # Other vignettes here:  https://jenniniku.github.io/gllvm/articles/
+# Requires gllvm version 1.3.1 or later
 
 # Load gllvm R-package
 library(gllvm)
