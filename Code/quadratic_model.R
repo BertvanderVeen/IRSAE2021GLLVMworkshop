@@ -27,7 +27,7 @@ ftComTol <- gllvm(Y, family = family, num.lv = 2, quadratic = "LV", seed = seed)
 
 # Third, fit a model with species-specific tolerances
 # This means a quadratic coefficient per species and LV
-ftUneqTol <- gllvm(Y, family = family, num.lv = 3, quadratic = TRUE, seed = seed)
+ftUneqTol <- gllvm(Y, family = family, num.lv = 2, quadratic = TRUE, seed = seed)
 
 # Compare them
 AIC(ftEqTol,ftComTol,ftUneqTol)
@@ -41,7 +41,7 @@ summary(ftUneqTol, theta = T, spp.intercepts = T) # Woah, that's a lot!
 # Extract species optima for LVs
 optima(ftUneqTol)
 
-# Exctract species tolerances
+# Extract species tolerances
 tolerances(ftUneqTol)
 
 #Residual variance per latent variable
@@ -52,8 +52,8 @@ getResidualCov(ftUneqTol)$var.q
 getResidualCov(ftUneqTol)$var.q2
 
 # Species correlations
-spec_cor <- getResidualCor(ftUneqTol)
-corrplot::corrplot(spec_cor, type = "lower", diag = F, order = "AOE")
+specCor <- getResidualCor(ftUneqTol)
+corrplot::corrplot(specCor, type = "lower", diag = F, order = "AOE")
 
 # Ordination diagram
 ordiplot(ftUneqTol, biplot=TRUE, spp.arrows = TRUE)

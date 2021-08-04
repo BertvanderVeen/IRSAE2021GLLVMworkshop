@@ -18,16 +18,19 @@ seed = 3521
 colnames(X) # Have a quick look what's in here!
 X <- scale(X) # Good practice to scale the predictors, to improve convergence
 
-# Fit a multivariate GLM
-MGLM <- gllvm(Y, X=X, family = family, num.lv = 0, seed = seed)
+# Fit a multivariate GLM, fussy convergence so extra settings
+MGLM <- gllvm(Y, X=X, family = family, num.lv = 0, optimizer = "nlminb", starting.val = "zero")
+summary(MGLM) # Information overload!
 
 # Now fit a constrained ordination, purely fixed-effects.
 # We could use lv.formula to specify predictors
 # If we don't, all predictors in X are used
 RRGLM <- gllvm(Y, X=X, family = family, num.RR = 2, seed = seed)
+summary(RRGLM) # Have a look at the model
 
 # Now fit a constrained ordination, but including the residual
 CGLLVM <- gllvm(Y, X=X, family = family, num.lv.c = 2, seed = seed)
+summary(CGLLVM) #Have a look
 
 # Now we use the formula interface to perform partial constrained ordination
 # formula is the argument for the predictors outside of the ordination
@@ -35,13 +38,11 @@ CGLLVM <- gllvm(Y, X=X, family = family, num.lv.c = 2, seed = seed)
 PCGLLVM <- gllvm(Y, X=X, family = family, num.lv.c = 2, seed = seed,
                  lv.formula = ~bare.sand+fallen.leaves+moss+herb.layer+reflection,
                  formula = ~soil.dry)
-
-# Have a look at the different models
-summary(MGLM) # Woah, that's a lot!
-summary(RRGLM) # OK, this is a little better  :)
-summary(CGLLVM) # Ew, significance has changed.
 summary(PCGLLVM) # Spot the difference  with the previous models?
 
+# Check which model is the best
+# Could use BIC or AICc instead
+AIC(MGLM,RRGLM,CGLLVM,PCGLLVM)
 # Plot the three ordination diagrams next to each other
 par(mfrow=c(1,3))
 
